@@ -20,10 +20,10 @@ function show(){
   			title:'一路陪伴，请捐助我'
   			,content: '\
         <span style="display:block;text-align:center;font-size:20px;">支付宝扫一扫</span>\
-        <img style="display:block;margin:0 auto;height:200px;width:200px;" src="https://github.com/hundreda/blogImg/blob/master/searchImg/zhifubao.png?raw=true">\
+        <img style="display:inline-block;margin:0 auto;height:200px;width:200px;" src="https://github.com/hundreda/blogImg/blob/master/searchImg/zhifubao.png?raw=true">\
         <img style="display:block;margin:0 auto;height:200px;width:200px;" src="https://github.com/hundreda/blogImg/blob/master/searchImg/weixin.png?raw=true">\
         <span style="display:block;font-size:14px;text-align:center;margin-top:10px;">不捐助也可播放，感谢捐助</span>'
-  			,area: '220px'
+  			,area: '420px'
           	,scrollbar: false
           	,btn: ['直接播放']
           	,btnAlign: 'c'
