@@ -17,13 +17,13 @@ function start(){
 function show(){
   	layui.use('layer', function(){
     	var index = layer.open({
-  			title:'一路陪伴，请捐助我'
+  			title:['一路陪伴，请捐助我','text-align:center']
   			,content: '\
-        <div style="display:block;width:200px;text-align">\
+        <div style="display:inline-block;width:200px;text-align">\
         <span style="display:block;text-align:center;font-size:20px;">支付宝扫一扫</span>\
-        <img style="display:inline-block; margin:0 auto;height:200px;width:200px;" src="https://github.com/hundreda/blogImg/blob/master/searchImg/zhifubao.png?raw=true">\
+        <img style="display:block; margin:0 auto;height:200px;width:200px;" src="https://github.com/hundreda/blogImg/blob/master/searchImg/zhifubao.png?raw=true">\
         </div>\
-        <div style="display:block;width:200px;">\
+        <div style="display:inline-block;width:200px;">\
         <span style="display:block;text-align:center;font-size:20px;">微信扫一扫</span>\
         <img style="display:block;margin:0 auto;height:200px;width:200px;" src="https://github.com/hundreda/blogImg/blob/master/searchImg/weixin.png?raw=true">\
         </div>\
